@@ -24,10 +24,52 @@
                 width: 100px;
                 margin-left: 60px;
             }
+            .alma{
+                 display: inline-block;
+                 width: 48px;
+                 padding: 10px 5px;
+                 background-color: red;
+                 text-align: center;
+                 box-sizing: border-box;
+            }
+
+            .banan{
+                display: inline-block;
+                width: 98px;
+                padding: 10px 30px;
+                background-color: rgb(151, 247, 151);
+                text-align: center;
+                box-sizing: border-box;
+            }
+
+            .juzim{
+                display: inline-block;
+                width: 150px;
+                padding: 10px;
+                background-color: rgb(19, 190, 247);
+                text-align: center;
+                box-sizing: border-box;
+            }
+            input{
+                width: 98px;
+                padding: 5px 10px;
+                box-sizing: border-box;
+                text-align: center;
+            }
+
+            button{
+                width: 150px;
+                padding: 10px 20px;
+                margin-top: 10px;
+                box-sizing: border-box;
+                text-align: center;
+            }
+
         </style>
     </head>
     <body>
         <form>
+            
             <!--1 tapsirma-->
 
             <label><b>Gmail ma'nzilinizge jiberilgen 6 xanali kodti kirgizin'</b></label>
@@ -61,6 +103,34 @@
             <img src="google.png" alt="google logo">
             <input type="text" placeholder="Search Google or type a URL" minlength="3" maxlength="30" required class="bye">
 
-        </form>
+            <hr>
+
+            <!--5 tapsirma-->
+            <span class="alma">Alma</span>
+            <span class="banan">Banan</span>
+            <br> <br>
+             <span class="juzim">Juzim</span>
+
+            <hr>
+
+            <!--6 tapsirma-->
+            <label>Neshe nan alasiz?</label>
+            <input type="text" value="1" id="bread">
+            <button type="submit" style="display:block; margin-top:10px;">Jiberiw</button>
+            
+           <hr>
+            
+           <!--7 tapsirma-->
+           <input type="text" placeholder="First name" class="first">
+           <input type="text" placeholder="Last name" class="last">
+           <input type="number" placeholder="Age" class="age">
+
+           <br>
+            
+           <!--8 tapsirma--> 
+           <button type="submit" class="jiber">Jiberiw</button>
+           <button type="submit" class="taza">Tazalaw</button>
+            
+           </form>
     </body>
 </html>

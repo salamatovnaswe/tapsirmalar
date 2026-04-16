@@ -77,6 +77,26 @@
                 padding-right: 50px;
             }
 
+            select{
+                width: 300px;
+                padding: 10px 15px;
+                box-sizing: border-box;
+                margin-bottom: 15px;
+            }
+            select:hover{
+                box-shadow: 2px 2px 2px lightgreen;
+            }
+            textarea{
+                width: 300px;
+                padding: 10px;
+                border: 2px solid blue;
+                transition: border-color 0.3s;
+                box-sizing: border-box;
+            }
+            textarea:hover{
+                border-color: blue;
+            }
+
         </style>
     </head>
     <body>
@@ -203,18 +223,27 @@
             <hr>
 
             <input type="text" placeholder="Atinizdi jazin">
-          <br> <br>
-          <label>Menin jaqsi koretugin miywem</label>
-          <br> <br>
-          <select>
+            <br> <br>
+            <label>Menin jaqsi koretugin miywem</label>
+            <br> <br>
+            <select>
             <option>Alma</option>
             <option>Banan</option>
             <option>Almurt</option>
             <option>Juzim</option>
             <option>Shabdali</option>
-          </select>
-          <p>Ne ushin?</p>
-          <textarea rows="8" cols="30"></textarea>
+            </select>
+            <p>Ne ushin?</p>
+            <textarea rows="8" cols="30"></textarea>
+
+            <hr>
+
+            <select>
+                <option>Xizmetti tan'lan'</option>
+                <option>Shashta'rez</option>
+                <option>Salon</option>
+                <option>Decorator</option>
+            </select>
             
            </form>
     </body>

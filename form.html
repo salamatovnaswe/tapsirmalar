@@ -137,6 +137,19 @@
                 display: inline-block;
                 margin-right: 10px;
             }
+            .box-grid{
+                display: grid;
+                grid-template-columns: 200px 75px;
+            }
+            .box{
+                display: grid;
+                grid-template-columns: 50px 1fr 75px;
+            }
+            .grid{
+                display: grid;
+                grid-template-columns:repeat();
+            }
+            
                 
 
         </style>
@@ -336,6 +349,33 @@
                 </div>
             </div>
         </div>
+
+                <hr>
+
+            
+            <div class="box-grid">
+            <div style="background-color: lightblue;">200px</div>
+            <div style="background-color: lightcoral;">75px</div>
+        </div>
+
+        <hr>
+
+        <div class="box">
+            <div style="background-color: lightgreen;">col 1</div>
+            <div style="background-color: lightsalmon;">col 2</div>
+            <div style="background-color: lightpink;">col 3</div>
+        </div>
+
+        <hr>
+
+        <div class="grid">
+            <div style="background-color: lightgreen;">col 1</div>
+            <div style="background-color: lightsalmon;">col 2</div>
+            <div style="background-color: lightpink;">col 3</div>
+            <div style="background-color: lightblue;">col 4</div>
+        </div>
+
+            
             
 
             

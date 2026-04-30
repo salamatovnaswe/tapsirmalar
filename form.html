@@ -173,6 +173,12 @@
                 display: grid;
                 grid-template-columns: 100px 1fr 2fr 50px;
             }
+            .grid{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            column-gap: 20px;
+            row-gap: 10px;
+           }
             
             
                 
@@ -451,6 +457,19 @@
             <div style="background-color: peru;">2fr</div>
             <div style="background-color: green;">50px</div>
         </div>    
+             <!--7 tapsirma-->
+        <div class="grid">
+            <div style="background-color: lightcoral;">col 1</div>
+            <div style="background-color: lightcoral;">col 2</div>
+            <div style="background-color: lightcoral;">col 3</div>
+            <div style="background-color: lightcoral;">col 4</div>
+            <div style="background-color: lightcoral;">col 5</div>
+            <div style="background-color: lightcoral;">col 6</div>
+            <div style="background-color: lightcoral;">col 7</div>
+            <div style="background-color: lightcoral;">col 8</div>
+        </div>
+
+            
 
            </form>
     </body>
